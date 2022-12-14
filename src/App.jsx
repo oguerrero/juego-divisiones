@@ -50,9 +50,9 @@ export default function App () {
     <main className="h-screen min-w-full bg-yellow-400 overflow-hidden">
       <div className="flex flex-col items-center justify-center h-screen">
         <div className="flex flex-row content-center justify-center font-bold text-white place-content-center place-items-center text-5xl md:text-9xl">
-          <p className="">{ currentDivision.dividendo }</p>{/* divisor */ }
+          <p className="">{ currentDivision.dividendo }</p>{/* dividendo */ }
           <p className="">÷</p>
-          <p className="">{ currentDivision.divisor }</p>{/* dividendo */ }
+          <p className="">{ currentDivision.divisor }</p>{/* divisor */ }
           <p className=""> = </p>
           <input className="px-2 text-black w-20 md:w-44 md:h-32 md:text-9xl text-center rounded-3xl bg-yellow-300 shadow-lg" type='number' ref={ resultContainer } />
         </div>
