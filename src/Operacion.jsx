@@ -19,7 +19,7 @@ export default function Operacion ({ current, handleChange, handleResult }) {
         <button className="px-8 py-2 text-2xl font-bold text-white bg-lime-500 rounded-full appearance-none" onClick={ () => handleChange('+') }>Suma</button>
         <button className="px-8 py-2 text-2xl font-bold text-white bg-orange-500 rounded-full appearance-none" onClick={ () => handleChange('-') }>Resta</button>
         <button className="px-8 py-2 text-2xl font-bold text-white bg-yellow-400 rounded-full appearance-none" onClick={ () => handleChange('x') }>Multiplicación</button>
-        <button className="px-8 py-2 text-2xl font-bold text-white bg-purple-700 rounded-full appearance-none" onClick={ () => handleChange('÷') }>Division</button>
+        <button className="px-8 py-2 text-2xl font-bold text-white bg-purple-700 rounded-full appearance-none" onClick={ () => handleChange('÷') }>División</button>
       </div>
     </div>
   )
