@@ -15,10 +15,10 @@ export default function Operacion ({ current, handleChange, handleResult }) {
         <button className="px-6 md:px-8 py-2 md:py-4 text-2xl ml-4 font-bold text-white bg-blue-600 rounded-full appearance-none" onClick={ () => handleResult(resultContainer) }>Enviar</button>
       </div>
       <div className="flex flex-col md:flex-row gap-4 my-8">
-        <button className="px-8 py-2 text-2xl font-bold text-white bg-red-600 rounded-full appearance-none" onClick={ () => handleChange('RANDOM') }>Aleatorio</button>
+        <button className="px-8 py-2 text-2xl font-bold text-white bg-red-600 rounded-full appearance-none" onClick={ () => handleChange('RANDOM') }>Aleatoria</button>
         <button className="px-8 py-2 text-2xl font-bold text-white bg-green-600 rounded-full appearance-none" onClick={ () => handleChange('+') }>Suma</button>
         <button className="px-8 py-2 text-2xl font-bold text-white bg-orange-600 rounded-full appearance-none" onClick={ () => handleChange('-') }>Resta</button>
-        <button className="px-8 py-2 text-2xl font-bold text-white bg-sky-600 rounded-full appearance-none" onClick={ () => handleChange('x') }>Multiplicación</button>
+        <button className="px-8 py-2 text-2xl font-bold text-white bg-yellow-500 rounded-full appearance-none" onClick={ () => handleChange('x') }>Multiplicación</button>
         <button className="px-8 py-2 text-2xl font-bold text-white bg-purple-600 rounded-full appearance-none" onClick={ () => handleChange('÷') }>Division</button>
       </div>
     </div>
